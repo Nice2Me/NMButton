@@ -40,6 +40,14 @@
 }
 
 
+- (void)setSpacing:(CGFloat)spacing
+{
+    _spacing = spacing;
+    
+    [self layoutIfNeeded];
+}
+
+
 - (instancetype)p_initWithType:(NSUInteger)type
                        title:(NSString *)title
                        image:(UIImage *)image

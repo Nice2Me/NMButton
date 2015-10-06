@@ -31,6 +31,7 @@ typedef NS_ENUM(NSUInteger, UITextImageButtonType) {
                                  image:(UIImage *)image;
 
 - (void)setTitleImageType:(NSUInteger)type;
+- (void)setSpacing:(CGFloat)spacing;
 
 
 @end
