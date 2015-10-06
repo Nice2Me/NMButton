@@ -5,7 +5,7 @@
 
 
 #Methods
-1. init instance
+* init instance
 
 We can use two kinds of methos to instance object; `buttonWithTitle` use default type to instance object.
 
@@ -15,13 +15,13 @@ or
 
     UITextImageButton *aButton = [UITextImageButton buttonWithType:aType title:titleString image:image];
 
-2. change type
+* change type
 
 If we instance button with `buttonWithTitle`, but we want to chang type later. we can call method `setTextImageButton`
 
     [aButton setTextImageButtonType:aType];
 
-3. change spacing between title and image
+* change spacing between title and image
 
 When instance object, we define default spacing between title and image. If it can't meet to your demands, you can call method `setSpacing` to change it later.
 
