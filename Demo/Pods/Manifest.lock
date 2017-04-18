@@ -1,0 +1,16 @@
+PODS:
+  - NMButton (0.0.1)
+
+DEPENDENCIES:
+  - NMButton (from `../`)
+
+EXTERNAL SOURCES:
+  NMButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NMButton: b2fcec4bf55fb005bd439644b50d3760a20f5196
+
+PODFILE CHECKSUM: 14d71951fb431619832cec04857f86d13838cec2
+
+COCOAPODS: 1.2.1
